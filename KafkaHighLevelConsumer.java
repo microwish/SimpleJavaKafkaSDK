@@ -79,7 +79,7 @@ public class KafkaHighLevelConsumer {
                 System.out.println("");
             }
         } catch (InterruptedException e) {
-            System.out.println("");
+            System.out.println(e);
         }
     }
 
